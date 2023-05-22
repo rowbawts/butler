@@ -21,7 +21,6 @@ public class Main {
                 .addEnabledCacheFlags(/*leave empty if any*/)
                 .buildJDA(); // Starts the bot!
 
-
         // This is kinda just to suppress an annoying IntelliJ warning.
         System.out.println("JDA Status: " + jda.getStatus());
     }
